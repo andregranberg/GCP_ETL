@@ -18,7 +18,6 @@ def my_function(request):
     dataset_ref = client.dataset(dataset_id)
     table_ref = dataset_ref.table(table_id)
     job_config = bigquery.LoadJobConfig()
-    # job_config.field_delimiter=(";")
     job_config.source_format = bigquery.SourceFormat.PARQUET
     job_config.autodetect = True
     job_config.write_disposition = "WRITE_TRUNCATE"
