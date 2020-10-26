@@ -3,7 +3,6 @@
 yfinance
 pandas
 google-cloud-bigquery
-python-csv
 requests
 DateTime
 regex
