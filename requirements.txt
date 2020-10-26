@@ -1,0 +1,10 @@
+# Function dependencies, for example:
+# package>=version
+yfinance
+pandas
+google-cloud-bigquery
+python-csv
+requests
+DateTime
+regex
+pyarrow
