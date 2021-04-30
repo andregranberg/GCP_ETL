@@ -12,8 +12,8 @@ def my_function(request):
     client = bigquery.Client()
 
     #BQ Table data
-    dataset_id = 'cloudFunctionETL'
-    table_id = 'pandastrial'
+    dataset_id = 'finance'
+    table_id = 'test'
 
     dataset_ref = client.dataset(dataset_id)
     table_ref = dataset_ref.table(table_id)
